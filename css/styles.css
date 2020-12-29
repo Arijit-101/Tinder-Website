@@ -1,0 +1,175 @@
+#title{
+    background-color:#ff4c68;
+}
+h1{
+    font-family: "Monserat-black;";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+} 
+.container-fluid{
+        padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding: 1rem 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 18 px;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+    
+}
+
+.download-btn{
+    margin: 10% 5% 5% 0%;
+}
+
+.img1{
+    width:65%;
+    margin-left: 65px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.row{
+    padding-bottom: 15px;
+}
+
+@media (max-width:1028px){
+    h1{
+        text-align: center;
+    }
+    .img1{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Features Section */
+
+#features{
+    padding: 5% 10%;
+    background-color: white;
+    position: relative;   
+    /*z-index: 1;       we are doing this to sit on top of the dog image transparently */
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: "Monserat-Bold";
+}
+p{
+    color: grey;
+}
+
+.useicons{
+    color: #ef8172;
+    margin-bottom: 1rem ;
+}
+
+.useicons:hover{          /*Hover is used to change color when the icon is hovered over*/
+    color: #ff4c68
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color:#ffe6e6;
+}
+
+.carousel-item{
+    padding: 7% 10%;
+}
+
+.leftbutton{
+    color: #fa9579;
+}
+
+ 
+
+h2{
+    font-family: "Monserat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.sliderimg{
+    width: 10%;
+    border-radius: 100%;            /*To make the picture rounded*/
+    margin: 20px;
+}
+/*.sliderimg-2{
+    width: 10%;
+    border-radius: %;            /*To make the picture rounded*/
+  /*  margin: 20px;
+}*/
+
+/* Press Section */
+#press{
+    background-color: #ffe6e6;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.presslogo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing*/
+
+#pricing{
+    padding: 120px;
+    text-align: center;
+}
+
+.pricecol{
+    padding: 3% 2%;
+}
+
+/* call to action*/
+
+#cta{
+    background-color:#ff4c68 ;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: "Monserat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15% 0%;
+    text-align: center;
+}
+
+.ficons{
+    margin: 2%;
+}
+
+.totop{
+    padding: 0 3% 1% ;
+    
+    
+}
+
